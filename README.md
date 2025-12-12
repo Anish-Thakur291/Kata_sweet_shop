@@ -75,6 +75,42 @@ I # used ChatGPT to:-
 
 . Generate small utility functions and test case structures.
 
+# A test report:-
+
+Found 24 test(s).
+Creating test database for alias 'default'...
+System check identified no issues (0 silenced).
+test_purchase_not_enough_stock (api.tests.PurchaseRestockTests.test_purchase_not_enough_stock) ... ok
+test_purchase_success (api.tests.PurchaseRestockTests.test_purchase_success) ... ok
+test_restock_admin_success (api.tests.PurchaseRestockTests.test_restock_admin_success) ... ok
+test_restock_regular_user_forbidden (api.tests.PurchaseRestockTests.test_restock_regular_user_forbidden) ... ok
+test_create_sweet_admin (api.tests.SweetAPITests.test_create_sweet_admin) ... ok
+test_create_sweet_regular_user_forbidden (api.tests.SweetAPITests.test_create_sweet_regular_user_forbidden) ... ok
+test_create_sweet_unauthenticated (api.tests.SweetAPITests.test_create_sweet_unauthenticated) ... ok
+test_delete_sweet_admin_success (api.tests.SweetAPITests.test_delete_sweet_admin_success) ... ok
+test_delete_sweet_regular_user_forbidden (api.tests.SweetAPITests.test_delete_sweet_regular_user_forbidden) ... ok
+test_delete_sweet_unauthenticated (api.tests.SweetAPITests.test_delete_sweet_unauthenticated) ... ok
+test_list_sweets_authenticated (api.tests.SweetAPITests.test_list_sweets_authenticated) ... ok
+test_list_sweets_unauthenticated (api.tests.SweetAPITests.test_list_sweets_unauthenticated) ... ok
+test_update_sweet_admin (api.tests.SweetAPITests.test_update_sweet_admin) ... ok
+test_update_sweet_regular_user_forbidden (api.tests.SweetAPITests.test_update_sweet_regular_user_forbidden) ... ok
+test_update_sweet_unauthenticated (api.tests.SweetAPITests.test_update_sweet_unauthenticated) ... ok
+test_sweet_creation (api.tests.SweetModelTests.test_sweet_creation) ... ok
+test_search_by_category (api.tests.SweetSearchTests.test_search_by_category) ... ok
+test_search_by_name (api.tests.SweetSearchTests.test_search_by_name) ... ok
+test_search_by_price_range (api.tests.SweetSearchTests.test_search_by_price_range) ... ok
+test_user_login_invalid_credentials (api.tests.UserAuthTests.test_user_login_invalid_credentials) ... ok
+test_user_login_success (api.tests.UserAuthTests.test_user_login_success) ... ok
+test_user_registration_password_mismatch (api.tests.UserAuthTests.test_user_registration_password_mismatch) ... ok
+test_user_registration_short_password (api.tests.UserAuthTests.test_user_registration_short_password) ... ok
+test_user_registration_success (api.tests.UserAuthTests.test_user_registration_success) ... ok
+
+----------------------------------------------------------------------
+Ran 24 tests in 12.858s
+
+OK
+Destroying test database for alias 'default'...
+
   #  Conclusion:-
 
 The Sweet Shop Management System demonstrates a complete full-stack application built using modern web technologies and industry best practices. By combining Django REST Framework for a secure and scalable backend with a Bootstrap-powered single-page UI, this project provides a smooth and responsive user experience for both regular users and administrators.
