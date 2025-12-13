@@ -75,6 +75,8 @@ I # used ChatGPT to:-
 
 . Generate small utility functions and test case structures.
 
+![image alt](https://github.com/Anish-Thakur291/Kata_sweet_shop/blob/74bc3e2a216e2c1caf203a6805ecf478f6e063e1/sweet01.png)
+
 # A test report:-
 
 Found 24 test(s).
