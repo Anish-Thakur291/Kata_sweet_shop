@@ -111,7 +111,7 @@ test_user_registration_success (api.tests.UserAuthTests.test_user_registration_s
 Ran 24 tests in 12.858s
 
 OK
-Destroying test database for alias 'default'...
+
 
   #  Conclusion:-
 
