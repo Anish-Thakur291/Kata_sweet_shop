@@ -108,9 +108,6 @@ test_user_registration_short_password (api.tests.UserAuthTests.test_user_registr
 test_user_registration_success (api.tests.UserAuthTests.test_user_registration_success) ... ok
 
 ----------------------------------------------------------------------
-Ran 24 tests in 12.858s
-
-OK
 
 
   #  Conclusion:-
